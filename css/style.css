@@ -1,0 +1,131 @@
+/* usar *{} refere-se a todo o body*/
+
+head{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 64px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+nav{/* geralmente menu de navegação é 70px*/
+    height: 70px;
+    background-color: black;
+    /* position: fixed; */
+    z-index: -1;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.6);
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    
+    
+}
+
+img{
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 65px;
+
+    /* padding-left: 15px;
+    /* margin-right: 40px; */
+     /* width: 100%; */
+     /* justify-content: space-around; */
+     /* margin-top: 0; */
+     
+     
+
+}
+ 
+nav ul li{
+    padding: 20px;
+    list-style-type: none;/* tira a "bolinha de lista"*/
+    color: whitesmoke;
+    margin-right: 35px;
+    /* font-family: sans-serif; */
+    margin-top: 0;
+    color: rgba(255,255,255, 0.5);
+    font-weight: bold;
+   
+}
+
+.logo{
+    width: 73px;
+    z-index: -1;
+    
+}
+
+body{
+    background: url("img/fundo.jpg");
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 200px;
+    margin: bottom;
+
+}
+
+/* button{
+
+    display: flex;
+    justify-content: space-around;
+     flex-direction: row;
+}  */
+
+button{
+
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    border-radius: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    border: solid 5px;
+}
+
+section{
+    font-size: 64px;
+    /* font-family: sans-serif; */
+    font-weight: bold; 
+}
+
+.b1{
+    border-color: rgb(143, 216, 33); 
+    text-align: center;
+    /* margin-left: 500px;
+    margin-right: 50px; */
+    padding: 30px;
+    color:white;
+    font-size: 20pt;
+    background: rgba(255,255, 255, 0.2);
+    font-weight: bold;
+    margin-left: 30%;
+    /* background: transparent; */
+}
+
+.b2{
+
+   
+    background: rgba(255,255, 255, 0.2);
+    text-align: center;
+    padding: 30px;
+    font-size: 20pt;
+    border-color:  white;
+    font-weight: bold;
+    color: white;
+    
+}
+
